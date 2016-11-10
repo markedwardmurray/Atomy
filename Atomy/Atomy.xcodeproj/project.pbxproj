@@ -93,8 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				4DBD874D1DD4215000D5C4F0 /* AppDelegate.swift */,
-				4DBD874F1DD4215000D5C4F0 /* AppViewController.swift */,
 				4DBD87511DD4215000D5C4F0 /* Main.storyboard */,
+				4DBD876F1DD43B4000D5C4F0 /* Controllers */,
 				4DBD87661DD424ED00D5C4F0 /* Protocols */,
 				4DBD875F1DD423BF00D5C4F0 /* Models */,
 				4DBD87541DD4215000D5C4F0 /* Assets.xcassets */,
@@ -123,6 +123,14 @@
 				4DBD876B1DD425D500D5C4F0 /* ColorConfigurable.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4DBD876F1DD43B4000D5C4F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD874F1DD4215000D5C4F0 /* AppViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
