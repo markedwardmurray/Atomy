@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4DBD874E1DD4215000D5C4F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD874D1DD4215000D5C4F0 /* AppDelegate.swift */; };
 		4DBD87501DD4215000D5C4F0 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD874F1DD4215000D5C4F0 /* AppViewController.swift */; };
-		4DBD87531DD4215000D5C4F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD87511DD4215000D5C4F0 /* Main.storyboard */; };
+		4DBD87531DD4215000D5C4F0 /* AppViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD87511DD4215000D5C4F0 /* AppViewController.storyboard */; };
 		4DBD87551DD4215000D5C4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD87541DD4215000D5C4F0 /* Assets.xcassets */; };
 		4DBD87581DD4215000D5C4F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD87561DD4215000D5C4F0 /* LaunchScreen.storyboard */; };
 		4DBD87611DD4244D00D5C4F0 /* Neutron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD87601DD4244D00D5C4F0 /* Neutron.swift */; };
@@ -19,6 +19,8 @@
 		4DBD876A1DD425C600D5C4F0 /* SoundConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD87691DD425C600D5C4F0 /* SoundConfigurable.swift */; };
 		4DBD876C1DD425D500D5C4F0 /* ColorConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD876B1DD425D500D5C4F0 /* ColorConfigurable.swift */; };
 		4DBD876E1DD4303500D5C4F0 /* MIDINote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD876D1DD4303500D5C4F0 /* MIDINote.swift */; };
+		4DBD87711DD43D9F00D5C4F0 /* AtomyBuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD87701DD43D9F00D5C4F0 /* AtomyBuilderViewController.swift */; };
+		4DBD87731DD43E0800D5C4F0 /* AtomyBuilderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD87721DD43E0800D5C4F0 /* AtomyBuilderViewController.storyboard */; };
 		82B5EDEB7E383C6354227903 /* Pods_Atomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D23F23782EE36A12972D936 /* Pods_Atomy.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +29,7 @@
 		4DBD874A1DD4215000D5C4F0 /* Atomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBD874D1DD4215000D5C4F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DBD874F1DD4215000D5C4F0 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
-		4DBD87521DD4215000D5C4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DBD87521DD4215000D5C4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AppViewController.storyboard; sourceTree = "<group>"; };
 		4DBD87541DD4215000D5C4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DBD87571DD4215000D5C4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DBD87591DD4215000D5C4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,6 +40,8 @@
 		4DBD87691DD425C600D5C4F0 /* SoundConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundConfigurable.swift; sourceTree = "<group>"; };
 		4DBD876B1DD425D500D5C4F0 /* ColorConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConfigurable.swift; sourceTree = "<group>"; };
 		4DBD876D1DD4303500D5C4F0 /* MIDINote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDINote.swift; sourceTree = "<group>"; };
+		4DBD87701DD43D9F00D5C4F0 /* AtomyBuilderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomyBuilderViewController.swift; sourceTree = "<group>"; };
+		4DBD87721DD43E0800D5C4F0 /* AtomyBuilderViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AtomyBuilderViewController.storyboard; sourceTree = "<group>"; };
 		8D23F23782EE36A12972D936 /* Pods_Atomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF90BDCBD1EB34FE6B783DB2 /* Pods-Atomy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atomy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atomy/Pods-Atomy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				4DBD874D1DD4215000D5C4F0 /* AppDelegate.swift */,
-				4DBD87511DD4215000D5C4F0 /* Main.storyboard */,
 				4DBD876F1DD43B4000D5C4F0 /* Controllers */,
 				4DBD87661DD424ED00D5C4F0 /* Protocols */,
 				4DBD875F1DD423BF00D5C4F0 /* Models */,
@@ -129,6 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				4DBD874F1DD4215000D5C4F0 /* AppViewController.swift */,
+				4DBD87511DD4215000D5C4F0 /* AppViewController.storyboard */,
+				4DBD87701DD43D9F00D5C4F0 /* AtomyBuilderViewController.swift */,
+				4DBD87721DD43E0800D5C4F0 /* AtomyBuilderViewController.storyboard */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -195,9 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBD87731DD43E0800D5C4F0 /* AtomyBuilderViewController.storyboard in Resources */,
 				4DBD87581DD4215000D5C4F0 /* LaunchScreen.storyboard in Resources */,
 				4DBD87551DD4215000D5C4F0 /* Assets.xcassets in Resources */,
-				4DBD87531DD4215000D5C4F0 /* Main.storyboard in Resources */,
+				4DBD87531DD4215000D5C4F0 /* AppViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBD87711DD43D9F00D5C4F0 /* AtomyBuilderViewController.swift in Sources */,
 				4DBD87681DD4253200D5C4F0 /* Nucleon.swift in Sources */,
 				4DBD87501DD4215000D5C4F0 /* AppViewController.swift in Sources */,
 				4DBD876E1DD4303500D5C4F0 /* MIDINote.swift in Sources */,
@@ -271,12 +279,13 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4DBD87511DD4215000D5C4F0 /* Main.storyboard */ = {
+		4DBD87511DD4215000D5C4F0 /* AppViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4DBD87521DD4215000D5C4F0 /* Base */,
 			);
-			name = Main.storyboard;
+			name = AppViewController.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4DBD87561DD4215000D5C4F0 /* LaunchScreen.storyboard */ = {
