@@ -14,4 +14,8 @@ struct Electron: SoundConfigurable {
     init(midiNote: MIDINote) {
         self.midiNote = midiNote;
     }
+    
+    init(midiNoteName: MIDINoteName) {
+        self.midiNote = MIDINote(name: midiNoteName)
+    }
 }
