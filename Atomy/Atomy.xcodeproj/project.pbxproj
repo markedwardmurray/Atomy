@@ -12,6 +12,12 @@
 		4DBD87531DD4215000D5C4F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD87511DD4215000D5C4F0 /* Main.storyboard */; };
 		4DBD87551DD4215000D5C4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD87541DD4215000D5C4F0 /* Assets.xcassets */; };
 		4DBD87581DD4215000D5C4F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD87561DD4215000D5C4F0 /* LaunchScreen.storyboard */; };
+		4DBD87611DD4244D00D5C4F0 /* Neutron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD87601DD4244D00D5C4F0 /* Neutron.swift */; };
+		4DBD87631DD4248800D5C4F0 /* Proton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD87621DD4248800D5C4F0 /* Proton.swift */; };
+		4DBD87651DD424BD00D5C4F0 /* Electron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD87641DD424BD00D5C4F0 /* Electron.swift */; };
+		4DBD87681DD4253200D5C4F0 /* Nucleon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD87671DD4253200D5C4F0 /* Nucleon.swift */; };
+		4DBD876A1DD425C600D5C4F0 /* SoundConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD87691DD425C600D5C4F0 /* SoundConfigurable.swift */; };
+		4DBD876C1DD425D500D5C4F0 /* ColorConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD876B1DD425D500D5C4F0 /* ColorConfigurable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		4DBD87541DD4215000D5C4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DBD87571DD4215000D5C4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DBD87591DD4215000D5C4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBD87601DD4244D00D5C4F0 /* Neutron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neutron.swift; sourceTree = "<group>"; };
+		4DBD87621DD4248800D5C4F0 /* Proton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proton.swift; sourceTree = "<group>"; };
+		4DBD87641DD424BD00D5C4F0 /* Electron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Electron.swift; sourceTree = "<group>"; };
+		4DBD87671DD4253200D5C4F0 /* Nucleon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nucleon.swift; sourceTree = "<group>"; };
+		4DBD87691DD425C600D5C4F0 /* SoundConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundConfigurable.swift; sourceTree = "<group>"; };
+		4DBD876B1DD425D500D5C4F0 /* ColorConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConfigurable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +69,33 @@
 				4DBD874D1DD4215000D5C4F0 /* AppDelegate.swift */,
 				4DBD874F1DD4215000D5C4F0 /* AppViewController.swift */,
 				4DBD87511DD4215000D5C4F0 /* Main.storyboard */,
+				4DBD87661DD424ED00D5C4F0 /* Protocols */,
+				4DBD875F1DD423BF00D5C4F0 /* Models */,
 				4DBD87541DD4215000D5C4F0 /* Assets.xcassets */,
 				4DBD87561DD4215000D5C4F0 /* LaunchScreen.storyboard */,
 				4DBD87591DD4215000D5C4F0 /* Info.plist */,
 			);
 			path = Atomy;
+			sourceTree = "<group>";
+		};
+		4DBD875F1DD423BF00D5C4F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD87641DD424BD00D5C4F0 /* Electron.swift */,
+				4DBD87601DD4244D00D5C4F0 /* Neutron.swift */,
+				4DBD87621DD4248800D5C4F0 /* Proton.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DBD87661DD424ED00D5C4F0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD87671DD4253200D5C4F0 /* Nucleon.swift */,
+				4DBD87691DD425C600D5C4F0 /* SoundConfigurable.swift */,
+				4DBD876B1DD425D500D5C4F0 /* ColorConfigurable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBD87681DD4253200D5C4F0 /* Nucleon.swift in Sources */,
 				4DBD87501DD4215000D5C4F0 /* AppViewController.swift in Sources */,
+				4DBD876C1DD425D500D5C4F0 /* ColorConfigurable.swift in Sources */,
+				4DBD87631DD4248800D5C4F0 /* Proton.swift in Sources */,
+				4DBD87651DD424BD00D5C4F0 /* Electron.swift in Sources */,
 				4DBD874E1DD4215000D5C4F0 /* AppDelegate.swift in Sources */,
+				4DBD87611DD4244D00D5C4F0 /* Neutron.swift in Sources */,
+				4DBD876A1DD425C600D5C4F0 /* SoundConfigurable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
