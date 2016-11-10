@@ -8,6 +8,16 @@
 
 import Foundation
 
+struct MIDINote {
+    let value: Int
+    let name: String
+    
+    init(value: Int, name: String) {
+        self.value = value
+        self.name = name
+    }
+}
+
 protocol SoundConfigurable {
-    var midiNote: Int { get }
+    var midiNote: MIDINote { get }
 }

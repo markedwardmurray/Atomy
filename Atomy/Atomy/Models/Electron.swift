@@ -8,6 +8,10 @@
 
 import Foundation
 
-struct Electron {
+struct Electron: SoundConfigurable {
+    let midiNote: MIDINote
     
+    init(midiNote: MIDINote) {
+        self.midiNote = midiNote;
+    }
 }
