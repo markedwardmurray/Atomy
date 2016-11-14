@@ -9,7 +9,7 @@
 import Foundation
 
 struct MIDINote {
-    let value: Int
+    let value: UInt8
     let name: MIDINoteName
     
     init(name: MIDINoteName) {
@@ -17,7 +17,7 @@ struct MIDINote {
         self.value = type(of: self).valueForName(name: name)
     }
     
-    static func valueForName(name: MIDINoteName) -> Int {
+    static func valueForName(name: MIDINoteName) -> UInt8 {
         switch name {
         case  .C3:
             return 36
