@@ -8,6 +8,14 @@
 
 import Foundation
 
-struct Proton {
+struct Proton: SoundConfigurable {
+    let midiNote: MIDINote
     
+    init(midiNote: MIDINote) {
+        self.midiNote = midiNote;
+    }
+    
+    init(midiNoteName: MIDINoteName) {
+        self.midiNote = MIDINote(name: midiNoteName)
+    }
 }
