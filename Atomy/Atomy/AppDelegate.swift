@@ -20,10 +20,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         
         midiPlayer.configure()
+        
+        // chords from Amy <3
         midiPlayer.startMIDINote(midiNote: MIDINote(name: .D5))
-        midiPlayer.startMIDINote(midiNote: MIDINote(name: .A5))
-        midiPlayer.startMIDINote(midiNote: MIDINote(name: .C5))
-        midiPlayer.startMIDINote(midiNote: MIDINote(name: .F5))
+        midiPlayer.startMIDINote(midiNote: MIDINote(name: .A4))
+        midiPlayer.startMIDINote(midiNote: MIDINote(name: .G5))
+        midiPlayer.startMIDINote(midiNote: MIDINote(name: .C6))
+        
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .G4))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .C5))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .Ds5))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .Gs5))
+        
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .B4))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .Ds5))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .Gs5))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .Cs6))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .F6))
+
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .C3))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .G4))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .E5))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .As5))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .D6))
+        
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .D4))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .F5))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .A5))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .C6))
+//        midiPlayer.startMIDINote(midiNote: MIDINote(name: .F6))
         
         return true
     }
